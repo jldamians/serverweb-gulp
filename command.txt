@@ -1,0 +1,24 @@
+NPM => Sirve para instalar modulos de node.js 
+https://www.npmjs.com/
+
+Bower => Sirve para instalar complementos 
+http://bower.io/
+
+gulp => Sirve para automatizar tareas 
+https://www.npmjs.com/package/gulp
+
+grunt => Sirve para automatizar tareas 
+http://gruntjs.com/getting-started
+
+Instalar herramienta de linea de comando de grunt:
+npm install -global grunt-cli
+
+Instalar herramienta de linea de comando de gulp:
+npm install --global gulp-cli
+
+Quitar paquetes de proyecto
+ npm uninstall --save-dev <<package-name>>
+
+gulp => USO DE PIPE
+===================
+http://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos
