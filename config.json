@@ -1,0 +1,8 @@
+{
+  "USER": "jlds161089",
+  "PASSWORD": "jlds1610892016",
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5984
+  }
+}

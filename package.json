@@ -8,8 +8,16 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-webserver": "^0.9.1",
-    "opn": "^4.0.0"
+    "nconf": "^0.8.4",
+    "opn": "^4.0.0",
+    "xmldom": "^0.1.22",
+    "xpath.js": "^1.0.6"
   },
   "repository": {},
-  "scripts": {}
+  "scripts": {
+    "server": "gulp",
+    "xpath": "node uso-estandar-xpath-sobre-xml.js",
+    "varent": "node variable-entorno-sistema.js",
+    "config": "set NODE_ENV=production && set PORT=3000 && node configuracion-guardado-entorno-usuario.js --name jdamian --age 25"
+  }
 }
