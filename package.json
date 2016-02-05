@@ -1,11 +1,12 @@
 {
-  "name": "example-http-grunt",
+  "name": "web-server-gulp",
   "version": "1.0.0",
   "description": "prueba de servidor http",
   "main": "index.js",
   "author": "jl",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.13.4",
     "gulp": "^3.9.0",
     "gulp-webserver": "^0.9.1",
     "nconf": "^0.8.4",
@@ -15,6 +16,7 @@
   },
   "repository": {},
   "scripts": {
+    "start": "node servidor-rutas-con-express.js",
     "server": "gulp",
     "xpath": "node uso-estandar-xpath-sobre-xml.js",
     "varent": "node variable-entorno-sistema.js",
